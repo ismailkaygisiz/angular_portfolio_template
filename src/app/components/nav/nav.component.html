@@ -1,0 +1,38 @@
+<ul class="nav justify-content-center">
+  <li class="nav-item center">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" aria-current="page" routerLink="/">
+          {{ navbarBrand }}
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">{{ navbarAbout }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#discovery">{{ navbarDiscover }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#media">{{ navbarMedia }}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">{{ navbarContact }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </li>
+</ul>

@@ -1,0 +1,13 @@
+.title-button {
+  align-items: center;
+  text-align: center;
+  min-width: 200px;
+  background-color: transparent;
+  color: black;
+}
+
+.fa {
+  cursor: pointer !important;
+  font-size: 26px !important;
+  transition: 0.5s;
+}

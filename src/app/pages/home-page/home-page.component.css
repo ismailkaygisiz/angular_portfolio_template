@@ -1,0 +1,10 @@
+.nocontainer {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about {
+  background-image: url(/assets/about.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

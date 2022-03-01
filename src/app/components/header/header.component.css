@@ -1,0 +1,42 @@
+.start {
+  color: black;
+  margin-top: 300px;
+}
+
+.title {
+  width: 200px;
+  color: #909090;
+  text-align: center;
+}
+
+#social-icons {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.hover-header {
+  color: white;
+  opacity: 0.5;
+  margin-right: 2vh;
+}
+
+.hover-header:hover {
+  color: white;
+  opacity: 1;
+}
+
+.header-title {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header-title {
+    font-size: 25px;
+  }
+}

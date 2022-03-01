@@ -1,0 +1,64 @@
+<div class="row container" style="margin-top: 5vh" id="contact">
+  <div class="col"></div>
+  <div class="col-md-6 text-center">
+    <button type="button" disabled class="btn btn-dark title-button">
+      <p style="font-size: xx-large; margin-top: 5px">{{ contactTitle }}</p>
+    </button>
+  </div>
+  <div class="col"></div>
+</div>
+<hr />
+<div class="row container" style="margin-top: 5vh">
+  <div class="col"></div>
+  <div class="col-md-8">
+    <div
+      class="card"
+      style="background-color: transparent; border: transparent"
+    >
+      <div class="card-body">
+        <h3 class="card-title">{{ contactAddressTitle }}</h3>
+        <p class="card-text">
+          <i class="fa fa-map-marker"></i>
+          <span
+            style="
+              margin-left: 10px;
+
+              white-space: pre-line;
+              word-wrap: break-word;
+            "
+            >{{ contactAddressDescription }}</span
+          >
+        </p>
+        <p class="card-text">
+          <i class="fa fa-phone"></i>
+          <a
+            href="{{ contactNumber }}"
+            style="text-decoration: none; color: black; margin-left: 10px"
+          >
+            {{ contactNumberTitle }}
+          </a>
+        </p>
+        <p class="card-text">
+          <i class="fa fa-envelope"></i>
+          <a
+            href="{{ contactEmail }}"
+            style="text-decoration: none; color: black; margin-left: 10px"
+          >
+            {{ contactEmailTitle }}
+          </a>
+        </p>
+
+        <p class="card-text" *ngFor="let link of contactLinks">
+          <i class="fa fa-chain-broken"></i>
+          <a
+            href="link"
+            style="text-decoration: none; color: black; margin-left: 10px"
+          >
+            {{ link }}
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col"></div>
+</div>

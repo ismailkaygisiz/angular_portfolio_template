@@ -1,0 +1,58 @@
+.footer {
+  color: white;
+  background-color: black;
+}
+
+.footer-social-icons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.click-button button {
+  width: 270px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: blueviolet !important;
+  border: none;
+}
+
+.back-to-top {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-back-to-top {
+  transition: 0.5s !important;
+  background-color: teal !important;
+  width: 250px;
+  border: none !important;
+  border-radius: 8px;
+}
+
+.btn-back-to-top:hover {
+  background-color: #00bcd4 !important;
+}
+
+a.white-link {
+  color: white !important;
+  text-decoration: none;
+}
+
+.hover-footer {
+  transition: 0.5s;
+}
+
+.hover-footer:hover {
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.signature {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+}

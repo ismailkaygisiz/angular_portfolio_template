@@ -1,0 +1,31 @@
+<div class="row" class="start">
+  <div class="col-md-6">
+    <div style="background-color: transparent; border: none">
+      <h1 class="header-title">{{ headerTitle }}</h1>
+    </div>
+
+    <div class="title">
+      <div
+        class="card"
+        style="width: 18rem; background-color: transparent; border: none"
+      >
+        <div style="text-align: start; margin-top: 1vh">
+          <h6>{{ headerTag }}</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6" id="social-icons" style="word-spacing: 25px">
+    <a [href]="headerInstagramLink"
+      ><i class="fa fa-instagram hover-header"></i
+    ></a>
+    <a [href]="headerTwitterLink"><i class="fa fa-twitter hover-header"></i></a>
+    <a [href]="headerLinkedinLink"
+      ><i class="fa fa-linkedin hover-header"></i
+    ></a>
+    <a [href]="headerEmail"><i class="fa fa-envelope hover-header"></i></a>
+  </div>
+  <div class="col-md-6"></div>
+</div>
