@@ -13,9 +13,9 @@
     <div
       class="video-container"
       style="margin-bottom: 3vh"
-      *ngFor="let video of mediaList"
+      *ngFor="let video of trustedMediaList"
     >
-      <iframe src="{{ video }}" frameborder="0" allowfullscreen></iframe>
+      <iframe [src]="video" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </div>
