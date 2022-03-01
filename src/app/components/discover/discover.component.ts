@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {
   generatedDiscoverOneDescription,
   generatedDiscoverOneTitle,
+  generatedDiscoverThreeDescription,
   generatedDiscoverThreeTitle,
   generatedDiscoverTwoDescription,
   generatedDiscoverTwoTitle,
@@ -18,7 +19,7 @@ export class DiscoverComponent implements OnInit {
   discoverThreeTitle = generatedDiscoverThreeTitle;
   discoverOneDescription = generatedDiscoverOneDescription;
   discoverTwoDescription = generatedDiscoverTwoDescription;
-  discoverThreeDescription = generatedDiscoverThreeTitle;
+  discoverThreeDescription = generatedDiscoverThreeDescription;
 
   constructor() {}
 
