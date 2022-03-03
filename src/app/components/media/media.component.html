@@ -2,7 +2,7 @@
   class="text-center"
   style="margin-top: 5vh; margin-bottom: 10vh"
   id="media"
-  *ngIf="mediaList.length > 0"
+  *ngIf="mediaList.length > 0 || mediaImageList.length > 0"
 >
   <button type="button" disabled class="btn btn-dark title-button">
     <p style="font-size: xx-large; margin-top: 5px">{{ mediaTitle }}</p>
@@ -10,6 +10,14 @@
 
   <hr />
   <div class="container" style="margin-top: 40px">
+    <div
+      class="video-container"
+      style="margin-bottom: 3vh"
+      *ngFor="let image of mediaImageList"
+    >
+      <img src="/assets/{{ image }}" class="img-fluid" alt="portfolio image" />
+    </div>
+
     <div
       class="video-container"
       style="margin-bottom: 3vh"

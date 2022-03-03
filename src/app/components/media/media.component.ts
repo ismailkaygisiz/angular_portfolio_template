@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { generatedMediaList, generatedMediaTitle } from 'src/data';
+import {
+  generatedMediaImageList,
+  generatedMediaList,
+  generatedMediaTitle,
+} from 'src/data';
 
 @Component({
   selector: 'app-media',
@@ -9,14 +13,13 @@ import { generatedMediaList, generatedMediaTitle } from 'src/data';
 })
 export class MediaComponent implements OnInit {
   mediaTitle = generatedMediaTitle;
-  mediaList: any[] = [];
+  mediaList: any[] = generatedMediaList;
+  mediaImageList: any[] = generatedMediaImageList;
   trustedMediaList: any[] = [];
 
   constructor(private sanitizer: DomSanitizer) {}
 
   ngOnInit(): void {
-    this.mediaList = generatedMediaList;
-
     try {
       for (let media of this.mediaList) {
         media = this.sanitizer.bypassSecurityTrustResourceUrl(media);

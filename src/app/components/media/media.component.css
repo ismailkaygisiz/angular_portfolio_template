@@ -16,7 +16,8 @@
 
 .video-container iframe,
 .video-container object,
-.video-container embed {
+.video-container embed 
+.video-container img {
   position: absolute;
   top: 0;
   left: 0;
