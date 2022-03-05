@@ -33,4 +33,12 @@ export class SeoService {
       this.document.documentElement.lang = 'en';
     }
   }
+
+  createCanonicalLink(url: string) {
+    let link: HTMLLinkElement = this.document.createElement('link');
+
+    link.setAttribute('rel', 'canonical');
+    link.setAttribute('href', url);
+    this.document.head.appendChild(link);
+  }
 }
