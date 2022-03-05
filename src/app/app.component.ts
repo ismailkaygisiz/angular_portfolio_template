@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { generatedTitle } from 'src/data';
+import { generatedLanguage, generatedTitle } from 'src/data';
 import { SeoService } from './services/seo.service';
 
 @Component({
@@ -14,6 +14,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.seoService.updateTitle(this.title);
-    this.seoService.updateLang('en');
+    this.seoService.updateLang(generatedLanguage);
   }
 }

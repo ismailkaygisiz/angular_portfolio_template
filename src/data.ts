@@ -3,6 +3,7 @@
 export let generatedTitle: any = '<str>::TitleKey::' ;
 export let generatedMetaDescription: any = '<str>::MetaDescription::' ;
 export let generatedKeywords: any = '<str>::Keywords::' ;
+export let generatedLanguage: any = '<str>::Language::' ;
 
 // Navbar
 
