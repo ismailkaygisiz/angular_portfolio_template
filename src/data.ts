@@ -33,6 +33,7 @@ export let generatedAboutDescription: any = '<str>::AboutDescription::' ;
 
 // Discover
 
+export let generatedDiscoverTitle: any = '<str>::DiscoverTitle::' ;
 export let generatedDiscoverOneTitle: any = '<str>::DiscoverOneTitle::' ;
 export let generatedDiscoverTwoTitle: any = '<str>::DiscoverTwoTitle::' ;
 export let generatedDiscoverThreeTitle: any = '<str>::DiscoverThreeTitle::' ;

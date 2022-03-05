@@ -15,7 +15,7 @@ import {
   styleUrls: ['./discover.component.css'],
 })
 export class DiscoverComponent implements OnInit {
-  discover = generatedNavbarDiscover;
+  discover = generatedDiscoverOneTitle;
   discoverOneTitle = generatedDiscoverOneTitle;
   discoverTwoTitle = generatedDiscoverTwoTitle;
   discoverThreeTitle = generatedDiscoverThreeTitle;
