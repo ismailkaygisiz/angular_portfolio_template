@@ -2,7 +2,9 @@
   class="text-center"
   style="margin-top: 5vh; margin-bottom: 10vh"
   id="media"
-  *ngIf="mediaList.length > 0 || mediaImageList.length > 0"
+  *ngIf="
+    mediaList.length > 0 || mediaImageList.length > 0 || mediaCV.length > 0
+  "
 >
   <button type="button" disabled class="btn btn-dark title-button">
     <p style="font-size: xx-large; margin-top: 5px">{{ mediaTitle }}</p>
