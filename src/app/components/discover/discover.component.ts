@@ -4,9 +4,9 @@ import {
   generatedDiscoverOneTitle,
   generatedDiscoverThreeDescription,
   generatedDiscoverThreeTitle,
+  generatedDiscoverTitle,
   generatedDiscoverTwoDescription,
   generatedDiscoverTwoTitle,
-  generatedNavbarDiscover,
 } from 'src/data';
 
 @Component({
@@ -15,7 +15,7 @@ import {
   styleUrls: ['./discover.component.css'],
 })
 export class DiscoverComponent implements OnInit {
-  discover = generatedDiscoverOneTitle;
+  discover = generatedDiscoverTitle;
   discoverOneTitle = generatedDiscoverOneTitle;
   discoverTwoTitle = generatedDiscoverTwoTitle;
   discoverThreeTitle = generatedDiscoverThreeTitle;
