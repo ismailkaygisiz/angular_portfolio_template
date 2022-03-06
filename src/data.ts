@@ -53,7 +53,6 @@ export let generatedMediaList: any = '<list>::MediaList::' ;
 // Contact
 
 export let generatedContactTitle: any = '<str>::ContactTitle::' ;
-export let generatedContactAddressTitle: any = '<str>::ContactAddressTitle::' ;
 export let generatedContactAddressDescription: any = '<str>::ContactAddressDescription::' ;
 export let generatedContactNumber: any = '<str>::ContactNumber::' ;
 export let generatedContactNumberTitle: any = '<str>::ContactNumberTitle::' ;

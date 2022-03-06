@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {
   generatedContactAddressDescription,
-  generatedContactAddressTitle,
   generatedContactEmail,
   generatedContactLinks,
   generatedContactNumber,
@@ -16,7 +15,6 @@ import {
 })
 export class ContactComponent implements OnInit {
   contactTitle = generatedContactTitle;
-  contactAddressTitle = generatedContactAddressTitle;
   contactAddressDescription = generatedContactAddressDescription;
   contactNumberTitle = generatedContactNumberTitle;
   contactNumber = '';
