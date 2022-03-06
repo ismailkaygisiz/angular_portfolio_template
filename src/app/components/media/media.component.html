@@ -10,6 +10,25 @@
 
   <hr />
   <div class="container" style="margin-top: 40px">
+    <div style="margin-bottom: 3vh" *ngFor="let cv of mediaCV">
+      <a href="/assets/{{ cv }}" download>
+        <button
+          class="btn btn-success"
+          style="
+            min-width: 60%;
+            min-height: 80px;
+            border-radius: 20p;
+            position: relative;
+          "
+        >
+          <div class="vertical-center" style="text-align: start">ÖZGEÇMİŞ</div>
+          <div style="text-align: end">
+            <i class="fa fa-download" style="font-size: 20px !important"></i>
+          </div>
+        </button>
+      </a>
+    </div>
+
     <div style="margin-bottom: 3vh" *ngFor="let image of mediaImageList">
       <img src="/assets/{{ image }}" class="img-fluid" alt="portfolio image" />
     </div>

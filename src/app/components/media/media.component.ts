@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import {
+  generatedMediaCVList,
   generatedMediaImageList,
   generatedMediaList,
   generatedMediaTitle,
@@ -13,8 +14,9 @@ import {
 })
 export class MediaComponent implements OnInit {
   mediaTitle = generatedMediaTitle;
-  mediaList: any[] = generatedMediaList;
+  mediaCV: any[] = generatedMediaCVList;
   mediaImageList: any[] = generatedMediaImageList;
+  mediaList: any[] = generatedMediaList;
   trustedMediaList: any[] = [];
 
   constructor(private sanitizer: DomSanitizer) {}

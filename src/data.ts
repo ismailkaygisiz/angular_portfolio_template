@@ -46,8 +46,9 @@ export let generatedDiscoverThreeDescription: any = '<str>::DiscoverThreeDescrip
 // Media
 
 export let generatedMediaTitle: any = '<str>::MediaTitle::' ;
-export let generatedMediaList: any = '<list>::MediaList::' ;
+export let generatedMediaCVList: any = '<list>::MediaCVList::' ;
 export let generatedMediaImageList: any = '<list>::MediaImageList::' ;
+export let generatedMediaList: any = '<list>::MediaList::' ;
 
 // Contact
 
